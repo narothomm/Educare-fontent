@@ -1,10 +1,23 @@
 import React from 'react'
+import Carousel from '../../components/Home/Carousel'
+import NoticeBoard from '../../components/Home/NoticeBoard'
+
+
+
 
 const Home = () => {
   return (
-    <div>
-      <h1 className='text-red-500 text-bold p-5'> I am home page</h1>
-    </div>
+   <div className='container mx-auto mt-5 mb-10'>
+            <div className='flex gap-5'>
+                <div className='w-[70%]'>
+                    <Carousel />
+                </div>
+                <div className='w-[30%] h-[400px]'>
+                    <NoticeBoard />
+                </div>
+
+            </div>
+        </div>
   )
 }
 
