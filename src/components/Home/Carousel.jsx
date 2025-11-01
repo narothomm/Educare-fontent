@@ -16,7 +16,7 @@ const Carousel = () => {
 
     ]
   return (
-    <div className="embla rounded-xl ml-28" ref={emblaRef}>
+    <div className="embla rounded-xl ml-27" ref={emblaRef}>
       <div className="embla__container rounded-xl">
        {
         CarouselSlides.map((slide,index)=>(
